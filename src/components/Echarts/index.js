@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { View, StyleSheet, Platform } from 'react-native';
 import renderChart from './renderChart';
 import WebView from 'react-native-webview';
-import echarts from './echarts.min';
-// 版本变更https://zhuanlan.zhihu.com/p/89494013
 export default class App extends Component {
 
   constructor(props) {
