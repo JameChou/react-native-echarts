@@ -8,6 +8,11 @@
 
 $ npm install native-echarts react-native-webview --save
 
+## update
+
+1. update the echarts to v5.0.1
+2. support rn 0.6+
+
 ## Usage
 
 The Usage is complete consistent with Echarts
@@ -61,7 +66,9 @@ AppRegistry.registerComponent('app', () => app);
 
 
 
-##Example
+## Example
+
+![Android demo screenshot](./example/demoAndroid.png)
 
 *run demo*
 
@@ -75,18 +82,10 @@ npm start
 
 Open the xcode project in the ios directory and click run
 
-screenshots：
-
-![image](https://github.com/somonus/react-native-echarts/blob/master/example/demoIOS.png)
-
 ### Android
 copy tpl.html to android\app\src\main\assets
 
 Open the Android project in the android directory with Android Studio and click run.
-
-screenshots：
-
-![image](https://github.com/somonus/react-native-echarts/blob/master/example/demoAndroid.png)
 
 ## License
 
